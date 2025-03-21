@@ -1,6 +1,6 @@
 import { Router } from 'express';
-import authController from './auth/auth.controller';
-import tasksController from './tasks/tasks.controller';
+import authController from 'routes/auth/auth.controller';
+import tasksController from 'routes/tasks/tasks.controller';
 
 const api = Router()
   .use(authController)
